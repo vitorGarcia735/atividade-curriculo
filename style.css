@@ -1,0 +1,145 @@
+* {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.dev {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #3E6AF2;
+    height: 61px;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    justify-content: flex-start;
+}
+
+ul {
+    list-style: circle;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px; 
+}
+
+ul {
+    list-style-type: circle; 
+}
+
+ul li::marker {
+    color: #3498db;
+    font-size: 20px;
+}
+
+
+
+.nome {
+    margin-top: -40px;
+    height: auto;
+    opacity: 1;
+    font-size: 24px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 10%;
+    background-image: url('WhatsApp Image 2024-08-27 at 21.51.34.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.imagem-email {
+    background-image: url('Email.png');
+}
+
+.imagem-endereço {
+    background-image: url('Address.png');
+}
+
+.imagem-linkedin {
+    background-image: url('Site.png');
+}
+
+.imagem-telefone {
+    background-image: url('Phone.png');
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.info h3 {
+    font-size: 14px;
+    color: #3498db;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.info p {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.Date {
+    color: #0b63c3;
+}
+
+.Date2 {
+    color: #0b63c3;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.coluna {
+    flex: 3;
+    max-width: 80%; 
+    padding-right: 20px; 
+}
+
+.education-item, .employment-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+.left {
+    flex-basis: 20%;
+}
+
+
